@@ -5,3 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Student.destroy_all
+
+s1 = Student.create(first_name: "Karina", last_name: "Macancela")
+s2 = Student.create(first_name: "Alex", last_name: "Ortiz")
+s3 = Student.create(first_name: "Jessica", last_name: "Bonvoy")
+s4 = Student.create(first_name: "Oliver", last_name: "James")
+
+puts "It has been seeded!"
